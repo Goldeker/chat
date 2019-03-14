@@ -1,0 +1,27 @@
+.search-wrap {
+	background-color: $search-wrap-bg;
+	padding: 20upx 30upx;
+	.search-mask {
+		display: flex;
+		width: 90%;
+		position: absolute;
+		font-size: 30upx;
+		align-items: center;
+		justify-content: center;
+		padding-top: 5upx;
+		image {
+			width: 50upx;
+			height: 50upx;
+		}
+	}
+	.search-inp {
+		background: #fff;
+		padding: 5upx;
+		border-radius: 5px;
+		input {
+			width: 100%;
+			font-size: 28upx;
+			padding-left: 5px;
+		}
+	}
+}
